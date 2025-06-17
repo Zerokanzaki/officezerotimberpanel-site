@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>オフィスゼロ | ティンバーパネル施工事例</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00695c;
+    }
+    .features ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #eee;
+      color: #777;
+    }
+    .logo-sdgs {
+      max-width: 300px;
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
 
+<header>
+  <h1>ティンバーパネル施工事例とSDGsの取組み</h1>
+</header>
+
+<main>
+
+  <section class="features">
+    <h2>ティンバーパネルの特長</h2>
+    <ul>
+      <li>工程期間短縮が狙える</li>
+      <li>イニシャルコスト削減が狙える</li>
+      <li>生態系への影響を抑える効果がある</li>
+      <li>法面に対しての型枠を合わせる事ができる為により強固な根固めを実現可能</li>
+    </ul>
+  </section>
+
+  <section class="gallery-section">
+    <h2>施工事例</h2>
+    <div class="gallery">
+      <img src="images/00C620F9-C4D9-4D3F-8F6B-2CD899BFDA2B.jpg" alt="施工写真1">
+      <img src="images/80D3BB69-D0C1-4111-A277-5D3EACACD818.jpg" alt="施工写真2">
+      <img src="images/4B4562A4-7C2F-416C-A102-E783AEA97166.jpg" alt="施工写真3">
+      <img src="images/FA17675A-8BE0-4DAE-A46B-E2F05ACA0C81.jpg" alt="施工写真4">
+      <img src="images/D8B05E98-5871-4F9D-B115-8239CDCF097F.jpg" alt="施工写真5">
+      <img src="images/428AAB94-1BBF-4070-9433-E17D4325E9ED.jpg" alt="施工写真6">
+      <img src="images/CF5752C4-FA03-4B09-8D12-7492099255BD.jpg" alt="施工写真7">
+      <img src="images/6D47E540-7B71-43CA-82C3-CE8F189330B4.jpg" alt="施工写真8">
+    </div>
+  </section>
+
+  <section class="sdgs">
+    <h2>藤沢市SDGs共創パートナー</h2>
+    <p>オフィスゼロは藤沢市のSDGs共創パートナーとして認定されています。地域社会と環境に配慮した持続可能な取り組みを進めています。</p>
+    <img src="images/565891869503389884.jpg" alt="藤沢市SDGsロゴ" class="logo-sdgs">
+  </section>
+
+  <section class="patent">
+    <h2>特許情報</h2>
+    <p><strong>特許番号：</strong>特許第５９７３０３９号</p>
+    <p><strong>発明の名称：</strong>木工沈床キットおよび木工沈床の施工方法</p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Office ZERO - All rights reserved.
+</footer>
+
+</body>
+</html>
