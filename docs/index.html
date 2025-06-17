@@ -53,6 +53,19 @@
       border-bottom: 2px solid #CCE3CC;
       padding-bottom: 0.5em;
     }
+    .example-images img,
+    .sdgs-logo img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .example-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1em;
+    }
     footer {
       background-color: #2E5D34;
       color: white;
@@ -72,53 +85,52 @@
     <h1>株式会社officeZERO</h1>
     <p>自然と調和する建材で、未来のインフラを支える</p>
   </header>
+
   <nav>
     <a href="#service">サービス</a>
     <a href="#partner">パートナー企業</a>
+    <a href="#example">施工事例</a>
+    <a href="#sdgs">SDGs</a>
     <a href="#contact">お問い合わせ</a>
   </nav>
+
   <main>
     <section id="service">
       <h2>ティンバーパネルについて</h2>
-      <p>
-        株式会社officeZEROでは、河川の災害復旧・予防工事において使用される
-        <strong>根固めブロック施工用型枠</strong>「ティンバーパネル」の販売を行っています。
-      </p>
-      <p>ティンバーパネルは、特許取得済みの木工沈床キットとして、以下のような特長を持ち、従来の型枠工法に比べてさまざまな利点があります：</p>
-      <ul>
-        <li>:ストップウォッチ: <strong>工程期間の短縮</strong>が狙えるため、施工のスピードアップが可能</li>
-        <li>:お金の袋: <strong>イニシャルコストの削減</strong>により、経済的な導入が可能</li>
-        <li>:芽: <strong>生態系への影響を抑える</strong>構造で、環境への負荷を軽減</li>
-        <li>:ハンマーとレンチ: <strong>法面の形状に合わせた施工</strong>が可能で、より<strong>強固な根固め構造</strong>を実現</li>
-      </ul>
-      <p>
-        狭小地や急勾配河川など、施工の難しい現場においても高い適応性と環境性能を兼ね備えたソリューションとして、全国の現場で採用されています。
-      </p>
-      <p><strong>【特許情報】</strong></p>
-      <p>特許番号：特許第５９７３０３９号<br />
-         発明の名称：木工沈床キットおよび木工沈床の施工方法</p>
+      <!-- 略 -->
     </section>
+
     <section id="partner">
       <h2>パートナー企業</h2>
-      <p>
-        当社は、大分県日田市に本社を構える<strong>ティンバーパネル販売合同会社</strong>と連携し、
-        地域材の有効活用と環境配慮型建材の提供に取り組んでいます。
-      </p>
-      <p>
-        ティンバーパネルの製造・普及において協力関係を築き、全国の河川工事や土木工事において
-        持続可能な資材の提供を実現しています。
-      </p>
-      <p>
-        :再生ボタン: <a href="https://hita-shokeiboku.com/index.html" target="_blank" rel="noopener noreferrer">ティンバーパネル販売合同会社のホームページはこちら</a>
-      </p>
+      <!-- 略 -->
     </section>
+
+    <!-- ▼ 追加：施工事例セクション -->
+    <section id="example">
+      <h2>施工事例</h2>
+      <p>実際にティンバーパネルを使用した施工現場の写真をご紹介します。</p>
+      <div class="example-images">
+        <img src="example1.jpg" alt="施工事例1">
+        <img src="example2.jpg" alt="施工事例2">
+        <img src="example3.jpg" alt="施工事例3">
+      </div>
+    </section>
+
+    <!-- ▼ 追加：SDGsロゴ表示 -->
+    <section id="sdgs">
+      <h2>SDGsへの取り組み</h2>
+      <p>officeZEROは、持続可能な開発目標（SDGs）を意識した事業活動を行っています。</p>
+      <div class="sdgs-logo">
+        <img src="sdgs_logo.png" alt="SDGsロゴ">
+      </div>
+    </section>
+
     <section id="contact">
       <h2>お問い合わせ</h2>
-      <p>メール：<a href="mailto:officezero.11@gmail.com">officezero.11@gmail.com</a></p>
-      <p>電話：0466-51-8646</p>
-      <p>所在地：〒252-0821<br />神奈川県藤沢市用田382</p>
+      <!-- 略 -->
     </section>
   </main>
+
   <footer>
     &copy; 2025 株式会社officeZERO. All rights reserved.
   </footer>
