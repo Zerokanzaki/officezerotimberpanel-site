@@ -2,98 +2,125 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ティンバーパネル施工事例</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>株式会社officeZERO</title>
   <style>
     body {
-      font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-      line-height: 1.6;
       margin: 0;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    .features, .sdgs {
-      background-color: #fff;
-      padding: 20px;
-      margin-bottom: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    .features ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .caption {
-      padding: 10px;
-      font-size: 0.9em;
-      color: #555;
-    }
-    .sdgs img {
-      max-width: 300px;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-    .sdgs p {
-      text-align: center;
-      margin-top: 10px;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #F4F9F4;
       color: #333;
+    }
+    header {
+      background-color: #2E5D34;
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin-top: 0.5em;
+      font-size: 1.1em;
+    }
+    nav {
+      background-color: #4A7C59;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1em;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #3B6449;
+    }
+    main {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3em;
+    }
+    section h2 {
+      color: #2E5D34;
+      border-bottom: 2px solid #CCE3CC;
+      padding-bottom: 0.5em;
+    }
+    footer {
+      background-color: #2E5D34;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
-
-  <h1>ティンバーパネル施工事例</h1>
-
-  <div class="features">
-    <h2>特徴</h2>
-    <ul>
-      <li>工程期間短縮が狙える</li>
-      <li>イニシャルコスト削減が狙える</li>
-      <li>生態系への影響を抑える効果がある</li>
-      <li>法面に対しての型枠を合わせることができるため、より強固な根固めを実現可能</li>
-    </ul>
-  </div>
-
-  <h2>施工写真</h2>
-  <div class="gallery">
-    <div class="card"><img src="00C620F9-C4D9-4D3F-8F6B-2CD899BFDA2B.jpg" alt="施工写真1"><div class="caption">施工写真1</div></div>
-    <div class="card"><img src="80D3BB69-D0C1-4111-A277-5D3EACACD818.jpg" alt="施工写真2"><div class="caption">施工写真2</div></div>
-    <div class="card"><img src="4B4562A4-7C2F-416C-A102-E783AEA97166.jpg" alt="施工写真3"><div class="caption">施工写真3</div></div>
-    <div class="card"><img src="FA17675A-8BE0-4DAE-A46B-E2F05ACA0C81.jpg" alt="施工写真4"><div class="caption">施工写真4</div></div>
-    <div class="card"><img src="D8B05E98-5871-4F9D-B115-8239CDCF097F.jpg" alt="施工写真5"><div class="caption">施工写真5</div></div>
-    <div class="card"><img src="428AAB94-1BBF-4070-9433-E17D4325E9ED.jpg" alt="施工写真6"><div class="caption">施工写真6</div></div>
-    <div class="card"><img src="CF5752C4-FA03-4B09-8D12-7492099255BD.jpg" alt="施工写真7"><div class="caption">施工写真7</div></div>
-    <div class="card"><img src="6D47E540-7B71-43CA-82C3-CE8F189330B4.jpg" alt="施工写真8"><div class="caption">施工写真8</div></div>
-  </div>
-
-  <div class="sdgs">
-    <img src="565891869503389884.jpg" alt="ふじさわSDGs共創パートナー">
-    <p>当社は藤沢市の「ふじさわSDGs共創パートナー」に認定されています。</p>
-  </div>
-
+  <header>
+    <h1>株式会社officeZERO</h1>
+    <p>自然と調和する建材で、未来のインフラを支える</p>
+  </header>
+  <nav>
+    <a href="#service">サービス</a>
+    <a href="#partner">パートナー企業</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+  <main>
+    <section id="service">
+      <h2>ティンバーパネルについて</h2>
+      <p>
+        株式会社officeZEROでは、河川の災害復旧・予防工事において使用される
+        <strong>根固めブロック施工用型枠</strong>「ティンバーパネル」の販売を行っています。
+      </p>
+      <p>ティンバーパネルは、特許取得済みの木工沈床キットとして、以下のような特長を持ち、従来の型枠工法に比べてさまざまな利点があります：</p>
+      <ul>
+        <li>:ストップウォッチ: <strong>工程期間の短縮</strong>が狙えるため、施工のスピードアップが可能</li>
+        <li>:お金の袋: <strong>イニシャルコストの削減</strong>により、経済的な導入が可能</li>
+        <li>:芽: <strong>生態系への影響を抑える</strong>構造で、環境への負荷を軽減</li>
+        <li>:ハンマーとレンチ: <strong>法面の形状に合わせた施工</strong>が可能で、より<strong>強固な根固め構造</strong>を実現</li>
+      </ul>
+      <p>
+        狭小地や急勾配河川など、施工の難しい現場においても高い適応性と環境性能を兼ね備えたソリューションとして、全国の現場で採用されています。
+      </p>
+      <p><strong>【特許情報】</strong></p>
+      <p>特許番号：特許第５９７３０３９号<br />
+         発明の名称：木工沈床キットおよび木工沈床の施工方法</p>
+    </section>
+    <section id="partner">
+      <h2>パートナー企業</h2>
+      <p>
+        当社は、大分県日田市に本社を構える<strong>ティンバーパネル販売合同会社</strong>と連携し、
+        地域材の有効活用と環境配慮型建材の提供に取り組んでいます。
+      </p>
+      <p>
+        ティンバーパネルの製造・普及において協力関係を築き、全国の河川工事や土木工事において
+        持続可能な資材の提供を実現しています。
+      </p>
+      <p>
+        :再生ボタン: <a href="https://hita-shokeiboku.com/index.html" target="_blank" rel="noopener noreferrer">ティンバーパネル販売合同会社のホームページはこちら</a>
+      </p>
+    </section>
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>メール：<a href="mailto:officezero.11@gmail.com">officezero.11@gmail.com</a></p>
+      <p>電話：0466-51-8646</p>
+      <p>所在地：〒252-0821<br />神奈川県藤沢市用田382</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 株式会社officeZERO. All rights reserved.
+  </footer>
 </body>
 </html>
